@@ -21,8 +21,8 @@ def clock():
 my_clock = Label(main, text="", font=("Arial", 80), fg="blue", bg="white")
 my_clock.pack(pady=20)
 
-my_label2 = Label(main, text="", font=("Arial", 14))
-my_label2.pack(pady=10)
+my_label = Label(main, text="", font=("Arial", 14))
+my_label.pack(pady=10)
 
 clock()
 
